@@ -1,0 +1,7 @@
+Primo turno del torneo:
+Match 1: Napoli vs Inter
+Match 2: Fiorentina vs Juve
+Match 3: Milan vs Torino
+Match 4: Parma vs Monza
+Match 5: Atalanta vs Lecce
+Match 6: Lazio vs Roma

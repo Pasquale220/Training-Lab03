@@ -1,0 +1,5 @@
+[
+    { "title": "Home", "link": "?page=home" },
+    { "title": "Chi Siamo", "link": "?page=about" },
+    { "title": "Teams", "link": "?page=teams" }
+]

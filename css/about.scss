@@ -1,0 +1,185 @@
+@import "colors";
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background: $bg-gradient;
+    min-height: 70vh;
+    margin-bottom: 10px;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: $secondary-text-color;
+    text-shadow: $primary-text-shadow;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+/* Sezione Descrizione */
+.about-description {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: $secondary-text-color;
+    
+}
+
+.about-description h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+.about-description p{
+    color: $third-text-color;
+}
+
+/* Sezione Missione e Visione */
+.about-mission-vision {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #EAEAEA;
+    color: $third-text-color;
+    margin-bottom: 10px;
+}
+
+.about-mission-vision div {
+    max-width: 45%;
+}
+
+.about-mission-vision h2 {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+/* Sezione Team */
+.about-team {
+    padding: 50px 20px;
+    background-color: $secondary-bg;
+    color: $secondary-text-color;
+    text-align: center;
+}
+
+.about-team h2 {
+    font-size: 2rem;
+    margin-bottom: 30px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+.team-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.team-member {
+    text-align: center;
+    background-color: $secondary-text-color;
+    color: $third-text-color;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.team-member img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.team-member h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-text-color;
+    
+}
+
+.team-member p {
+    font-size: 1rem;
+}
+
+.contact-form {
+    padding: 50px 20px;
+    background: $bg-gradient;
+    max-width: 600px;
+    color: $primary-text-color;
+    text-shadow: $primary-text-shadow;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.contact-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.contact-form input,
+.contact-form select,
+.contact-form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid $third-text-color;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    padding: 10px 20px;
+    background-color: $button-bg;
+    color: $button-color;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+    background-color: $button-hover-bg;
+    color: $button-hover-color;
+}
+

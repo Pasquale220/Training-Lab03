@@ -1,0 +1,115 @@
+@import "colors";
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px 20px;
+    background: $bg-gradient;
+    min-height: 70vh;
+    margin-bottom: 10px;
+}
+
+.hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+    text-shadow: $primary-text-shadow;
+    color: $primary-h-color;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    color: $secondary-text-color;
+    text-shadow: $primary-text-shadow;
+}
+
+.hero-image img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    color: $primary-h-color;
+    text-shadow: $primary-text-shadow;
+    text-align: center;
+    padding: 20px 0;
+    margin-bottom: 10px;
+}
+
+.team-input,
+.match-results,
+.message {
+    background: $bg-gradient;
+    animation: gradientAnimation 6s ease infinite;
+    color: $secondary-text-color;
+    text-shadow: $primary-text-shadow;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: $primary-h-color;
+    text-shadow: $primary-text-shadow;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+form label {
+    font-weight: bold;
+}
+
+form input {
+    padding: 8px;
+    font-size: 1rem;
+    border: 1px solid $third-text-color;
+    border-radius: 5px;
+}
+
+form button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: $button-bg;
+    color: $button-color;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+form button:hover {
+    background-color: $button-hover-bg;
+    color: $button-hover-color;
+}
+
+.match-results ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.match-results li {
+    margin: 10px 0;
+    font-size: 1.2rem;
+}
+
+.message {
+    text-align: center;
+    font-weight: bold;
+}
