@@ -183,3 +183,112 @@
     color: $button-hover-color;
 }
 
+@media (max-width: 425px) {
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 20px;
+        min-height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-image img {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /* About Description */
+    .about-description {
+        padding: 20px 10px;
+    }
+
+    .about-description h2 {
+        font-size: 1.8rem;
+    }
+
+    .about-description p {
+        font-size: 1rem;
+        line-height: 1.4;
+    }
+
+    /* Mission e Vision */
+    .about-mission-vision {
+        flex-direction: column;
+        padding: 20px 10px;
+        gap: 20px;
+    }
+
+    .about-mission-vision div {
+        max-width: 100%;
+    }
+
+    .about-mission-vision h2 {
+        font-size: 1.5rem;
+    }
+
+    .about-mission-vision p {
+        font-size: 1rem;
+    }
+
+    /* Team Section */
+    .team-grid {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .team-member img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .team-member h3 {
+        font-size: 1.1rem;
+    }
+
+    .team-member p {
+        font-size: 0.9rem;
+    }
+
+    /* Form di Contatto */
+    .contact-form {
+        padding: 20px 10px;
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .contact-form h2 {
+        font-size: 1.8rem;
+    }
+
+    .contact-form label {
+        font-size: 0.9rem;
+    }
+
+    .contact-form input,
+    .contact-form select,
+    .contact-form textarea {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+
+    .contact-form button {
+        padding: 10px;
+        font-size: 1rem;
+    }
+}

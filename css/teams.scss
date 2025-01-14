@@ -113,3 +113,86 @@ form button:hover {
     text-align: center;
     font-weight: bold;
 }
+
+@media (max-width: 425px) {
+    /* Hero Section */
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 20px; /* Spaziatura uniforme */
+        min-height: auto;
+    }
+
+    .hero-content {
+        max-width: 100%;
+    }
+
+    .hero-content h1 {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+    }
+
+    .hero-image img {
+        width: 90%;
+        max-width: 300px;
+        margin: 0 auto;
+    }
+
+    /* Modulo di Inserimento Squadre */
+    .team-input {
+        padding: 20px 10px;
+        margin-bottom: 15px;
+    }
+
+    .team-input h1 {
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+    }
+
+    .team-input h2 {
+        font-size: 1.5rem;
+        margin-bottom: 10px;
+    }
+
+    form {
+        grid-template-columns: 1fr; /* Una sola colonna per piccoli schermi */
+    }
+
+    form label {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+    }
+
+    form input {
+        font-size: 0.9rem;
+        padding: 8px;
+        margin-bottom: 10px;
+    }
+
+    form button {
+        font-size: 1rem;
+        padding: 10px;
+    }
+
+    /* Risultati del Torneo */
+    .match-results ul {
+        padding: 10px;
+    }
+
+    .match-results li {
+        font-size: 1rem;
+        margin: 5px 0;
+    }
+
+    /* Messaggio */
+    .message {
+        padding: 20px 10px;
+        font-size: 1rem;
+    }
+}

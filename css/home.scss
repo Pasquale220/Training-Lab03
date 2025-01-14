@@ -188,17 +188,102 @@ h2{
 
 
 @media (max-width: 768px) {
+    /* Hero Section */
     .hero {
         flex-direction: column;
         text-align: center;
+        padding: 20px 10px;
     }
 
-    .hero-content {
-        max-width: 100%;
-        margin-bottom: 20px;
+    .hero-content h1 {
+        font-size: 2rem;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+    }
+
+    .hero-btn {
+        padding: 10px 20px;
+        font-size: 0.9rem;
     }
 
     .hero-image {
         max-width: 100%;
     }
+
+    /* About Us Section */
+    .about-us {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .about-content {
+        max-width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-us img {
+        width: 100%;
+    }
+
+    /* Events Section */
+    .events-grid {
+        grid-template-columns: 1fr;
+    }
+
+    /* Testimonials Section */
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
 }
+
+@media (max-width: 425px) {
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 20px 10px;
+        gap: 20px; /* Spaziatura uniforme tra gli elementi */
+        background-size: cover;
+        min-height: auto; /* Rimuove l'altezza minima per adattarsi meglio al contenuto */
+    }
+
+    .hero-content {
+        max-width: 90%; /* Allinea la larghezza al testo della sezione About Us */
+        margin-bottom: 10px;
+    }
+
+    .hero-content h1 {
+        font-size: 1.8rem;
+        margin-bottom: 10px;
+    }
+
+    .hero-content p {
+        font-size: 1rem;
+        margin-bottom: 15px;
+        line-height: 1.4;
+    }
+
+    .hero-btn {
+        display: inline-block;
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+
+    .hero-image {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px; /* Stesso stile della sezione About Us */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    }
+}
+
+
+
